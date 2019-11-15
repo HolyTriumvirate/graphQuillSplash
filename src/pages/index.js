@@ -18,6 +18,8 @@ const IndexPage = () => (
     <Link to="/page-2/">Go to page 2</Link>
     <br />
     <Link to="/docs/">Documentation</Link>
+    <br />
+    <Link to="/docs/someOtherDocs">Nested Folder, Documentation</Link>
   </Layout>
 );
 
