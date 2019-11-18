@@ -9,9 +9,8 @@ import SEO from '../components/seo';
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hello World!</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something very super great.</p>
+    <h1>Welcome to the home of the GraphQuill VS Code extension!</h1>
+    <p>Here you will find information about the extension.</p>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Image />
     </div>
