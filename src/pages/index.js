@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
-import "../styles.global.css";
+//import "../styles.global.css";
 
 const IndexPage = () => (
   <Layout>
@@ -15,7 +15,7 @@ const IndexPage = () => (
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Image />
     </div>
-    <Link to="/page-2/">Team</Link>
+    <Link to="/page-2/">Meet the Team</Link>
     <br />
     <Link to="/docs/">Documentation</Link>
     <br />
