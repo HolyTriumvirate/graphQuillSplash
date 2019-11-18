@@ -3,7 +3,6 @@ import Image from '../../components/image';
 
 const docum = () => (
   <Layout>
-      <>
     <div>
     <a href="https://reactime.io/">Reactime, a time-traveling React debugger.</a>
     <br/>
@@ -15,7 +14,6 @@ const docum = () => (
       all be the same width? */}
       <Image />
     </div>
-  </>
   </Layout>
 
 );
