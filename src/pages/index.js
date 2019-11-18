@@ -5,6 +5,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
+import "../styles.global.css";
 
 const IndexPage = () => (
   <Layout>
@@ -18,7 +19,7 @@ const IndexPage = () => (
     <br />
     <Link to="/docs/">Documentation</Link>
     <br />
-    <Link to="/docs/someOtherDocs">Nested Folder, Documentation</Link>
+    <Link to="/docs/someOtherDocs">Friends</Link>
     <br />
     <a href="https://marketplace.visualstudio.com/items?itemName=sproutdeveloping.graphquill">Go to the Extension on Marketplace!</a>
   </Layout>
