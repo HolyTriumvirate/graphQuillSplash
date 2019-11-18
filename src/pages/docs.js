@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 const Documentation = () => (
-  <Layout>
   <div>
     <h1>What is GraphQuill?</h1>
     <p>GraphQuill is a VS Code extension that performs GraphQL API endpoint testing within the VS Code environment. GraphQuill intends to remove the need for switching between VS Code and GraphiQL, Postman, or another API development tool.</p>
@@ -33,7 +32,6 @@ const Documentation = () => (
     <p>Created by: Alex Chao, Austin Ruby and Edward Greenberg</p>
     <p>0.11.0 | Initial release of GraphQuill, More to come!</p>
   </div>
-  </Layout>
 );
 
 export default Documentation;
