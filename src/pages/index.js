@@ -19,6 +19,8 @@ const IndexPage = () => (
     <Link to="/docs/">Documentation</Link>
     <br />
     <Link to="/docs/someOtherDocs">Nested Folder, Documentation</Link>
+    <br />
+    <Link to="https://marketplace.visualstudio.com/items?itemName=sproutdeveloping.graphquill">Go to the Extension on Marketplace!</Link>
   </Layout>
 );
 
