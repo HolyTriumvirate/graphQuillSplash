@@ -20,7 +20,7 @@ const IndexPage = () => (
     <br />
     <Link to="/docs/someOtherDocs">Nested Folder, Documentation</Link>
     <br />
-    <a href="https://marketplace.visualstudio.com/items?itemName=sproutdeveloping.graphquill">Go to the Extension on Marketplace!</a>
+    <a href="https://marketplace.visualstudio.com/items?itemName=sproutdeveloping.graphquill">Go to the cool Extension on Marketplace!</a>
   </Layout>
 );
 
