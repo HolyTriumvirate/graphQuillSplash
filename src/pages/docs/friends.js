@@ -3,7 +3,10 @@ import Image from '../../components/image';
 
 const docum = () => (
   <>
-    <div>some doc inside another folder...</div>
+    <div>
+    <a href="https://reactime.io/">Reactime, a time-traveling React debugger.</a>
+    <a href="https://trunq.io">TrunQ, a GraphQL caching solution.</a>
+    </div>
     <div className="400PXHERE" style={{ maxWidth: '400px' }}>
       {/* wrapping an image in a div with a max width can be used to control it's size... */}
       {/* could alternatively use a class to style the div boxes that should
