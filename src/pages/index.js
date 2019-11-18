@@ -15,11 +15,11 @@ const IndexPage = () => (
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Image />
     </div>
-    <Link to="/page-2/">Meet the Team</Link>
+    <Link to="/team/">Meet the Team</Link>
     <br />
     <Link to="/docs/">Documentation</Link>
     <br />
-    <Link to="/docs/someOtherDocs">Friends</Link>
+    <Link to="/docs/friends">Friends</Link>
     <br />
     <a href="https://marketplace.visualstudio.com/items?itemName=sproutdeveloping.graphquill">Go to the Extension on Marketplace!</a>
   </Layout>
