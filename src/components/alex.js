@@ -18,14 +18,14 @@ const Alex = () => {
     query {
       file(relativePath: { eq: "alex.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
+          fixed(width: 300, height: 300) {
+            ...GatsbyImageSharpFixed
           }
         }
       }
     }
   `);
-  return <Img fluid={data.file.childImageSharp.fluid} />;
+  return <Img fixed={data.file.childImageSharp.fixed} />;
 };
 
 export default Alex;
