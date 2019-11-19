@@ -25,7 +25,6 @@ const Alex = () => {
       }
     }
   `);
-    console.log(data)
   return <Img fluid={data.file.childImageSharp.fluid} />;
 };
 
