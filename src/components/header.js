@@ -20,34 +20,34 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: 'gray',
+            color: 'white',
             textDecoration: 'none',
           }}
         >
-          Team
+          {siteTitle} 
         </Link>
         <Link
           to="/team/"
           style={{
-            color: 'gray',
+            color: 'white',
             textDecoration: 'none',
           }}
         >
-          {siteTitle}
+          Team 
         </Link>
         <Link
           to="/docs/"
           style={{
-            color: 'gray',
+            color: 'white',
             textDecoration: 'none',
           }}
         >
-          Docs
+          Docs 
         </Link>
         <Link
           to="/docs/friends"
           style={{
-            color: 'gray',
+            color: 'white',
             textDecoration: 'none',
           }}
         >
