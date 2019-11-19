@@ -18,7 +18,7 @@ const Ed = () => {
     query {
       file(relativePath: { eq: "ed.jpg" }) {
         childImageSharp {
-          fixed(width: 300, height: 300) {
+          fixed(width: 300, height: 330) {
             ...GatsbyImageSharpFixed
           }
         }
