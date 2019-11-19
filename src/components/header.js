@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          Team </Link>
+          team </Link>
         <Link
           to="/docs/"
           style={{
@@ -40,14 +40,14 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          Docs </Link>
+          docs </Link>
         <Link
           to="/docs/friends"
           style={{
             color: 'white',
             textDecoration: 'none',
           }}
-        >Friends </Link>
+        >friends </Link>
       </h1>
     </div>
   </header>
