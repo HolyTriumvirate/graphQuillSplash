@@ -18,15 +18,15 @@ const Quill = () => {
     query {
       file(relativePath: { eq: "quill.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
+          fixed(width: 125, height: 125) {
+            ...GatsbyImageSharpFixed
           }
         }
       }
     }
   `);
 
-  return <Img fluid={data.file.childImageSharp.fluid} />;
+  return <Img fixed={data.file.childImageSharp.fixed} />;
 };
 
 export default Quill;
