@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 1 }}>
         <Link
           to="/"
           style={{
@@ -24,8 +24,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          {siteTitle} 
-        </Link>
+          {siteTitle} </Link>
         <Link
           to="/team/"
           style={{
@@ -33,8 +32,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          Team 
-        </Link>
+          Team </Link>
         <Link
           to="/docs/"
           style={{
@@ -42,17 +40,14 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          Docs 
-        </Link>
+          Docs </Link>
         <Link
           to="/docs/friends"
           style={{
             color: 'white',
             textDecoration: 'none',
           }}
-        >
-          Friends
-        </Link>
+        >Friends </Link>
       </h1>
     </div>
   </header>
