@@ -11,9 +11,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Welcome to the home of the GraphQuill VS Code extension!</h1>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
+    {/* <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Quill />
-    </div>
+    </div> */}
     <Link to="/team/">Meet the Team</Link>
     <br />
     <Link to="/docs/">Documentation</Link>
