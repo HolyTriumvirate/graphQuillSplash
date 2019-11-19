@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import Quill from '../components/quill';
+//import Quill from '../components/quill';
 import SEO from '../components/seo';
 import "../styles/global.css";
 
