@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-//import Quill from '../components/quill';
+import Quill from '../components/quill';
 import SEO from '../components/seo';
 import "../styles/global.css";
 
@@ -11,9 +11,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Welcome to the home of the GraphQuill VS Code extension!</h1>
-    {/* <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
+    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Quill />
-    </div> */}
+    </div>
     <Link to="/team/">Meet the Team</Link>
     <br />
     <Link to="/docs/">Documentation</Link>
