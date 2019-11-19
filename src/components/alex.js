@@ -26,7 +26,7 @@ const Alex = () => {
     }
   `);
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+  return <Img fluid={data.file.childImageSharp.fluid} />;
 };
 
 export default Alex;
