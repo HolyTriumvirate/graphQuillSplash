@@ -10,7 +10,7 @@ import "../styles/global.css";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Welcome to the home of the GraphQuill VS Code extension!</h1>
+    <h1>Welcome to home for the GraphQuill VS Code extension!</h1>
     <div style={{ display: flex, justifyContent: center}}>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Quill />
