@@ -8,7 +8,7 @@ const docum = () => (
     <a href="https://reactime.io/">Reactime, a time-traveling React debugger.</a>
     <br/>
     <a href="https://trunq.io">TrunQ, a GraphQL caching solution.</a>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
+    <div class="image" style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Quill />
     </div>
     </div>
