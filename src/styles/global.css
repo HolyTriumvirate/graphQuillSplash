@@ -1,11 +1,14 @@
 :root {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
+  text-align: center; 
 }
 
 html {
     background-image: url("../images/wall2.jpg");
     background-size: cover;
   }
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
