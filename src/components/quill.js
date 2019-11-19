@@ -13,7 +13,7 @@ import Img from 'gatsby-image';
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const Image = () => {
+const Quill = () => {
   const data = useStaticQuery(graphql`
     query {
       file(relativePath: { eq: "austin.jpg" }) {
@@ -29,7 +29,7 @@ const Image = () => {
   return <Img fluid={data.file.childImageSharp.fluid} />;
 };
 
-export default Image;
+export default Quill;
 
 
 

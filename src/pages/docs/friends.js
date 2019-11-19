@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../../components/image';
+import Quill from '../../components/quill';
 import Layout from '../../components/layout';
 
 const docum = () => (
@@ -9,7 +9,7 @@ const docum = () => (
     <br/>
     <a href="https://trunq.io">TrunQ, a GraphQL caching solution.</a>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
+      <Quill />
     </div>
     </div>
   </Layout>
