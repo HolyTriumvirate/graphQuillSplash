@@ -20,7 +20,7 @@ const Documentation = () => (
     </ul>
     <h1>Getting Started</h1>
     <h2>Installation</h2>
-    <p>Graphquill can be installed from the VS Code Extensions marketplace.</p>
+    <p>Graphquill can be installed from <a href="https://marketplace.visualstudio.com/items?itemName=sproutdeveloping.graphquill">the VS Code Extensions marketplace</a></p>
     <h2>Getting up the config file</h2>
     <p>Open the command palette in VS Code (Cmd/Ctrl + Shift + P) and select <code>"GraphQuill: Create GraphQuill Config File"</code>. A default config file will be generated. Update the entry point and port number to finish your GraphQuill setup.</p>
     <h1>Write your first GraphQuill query</h1>
@@ -28,7 +28,7 @@ const Documentation = () => (
     <p>Anywhere in your open file, put a GraphQL query inside a graphQuill function invocation.</p>
     <p>On every save, GraphQuill will send any requests inside of the graphQuill functions to your GraphQL API and show responses in the GraphQuill Output Channel. To send another request, create a new invokation of the <code>graphQuill</code> function and put the new request as the argument.</p>
     <h1>Contributing and Issues</h1>
-    <p>We are always looking to improve. If there are any contributions or issues you have, please check out our documentation on contributions or issues.</p>
+    <p>We are always looking to improve. If there are any contributions or issues you have, please check out our <a href="https://github.com/oslabs-beta/GraphQuill">documentation</a> on contributions or issues.</p>
     <h1>Release Notes</h1>
     <p>Created by: Alex Chao, Austin Ruby and Edward Greenberg</p>
     <p>0.11.0 | Initial release of GraphQuill, More to come!</p>
