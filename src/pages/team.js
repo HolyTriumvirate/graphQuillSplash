@@ -1,6 +1,9 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import { Link } from 'gatsby';
+import Alex from '../components/image';
+import Austin from '../components/image';
+import Ed from '../components/image';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
