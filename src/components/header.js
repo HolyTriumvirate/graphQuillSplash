@@ -25,14 +25,11 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {siteTitle} </Link>
-        <Link
+        <Link className="hoverable"
           to="/team/"
           style={{
             color: 'white',
             textDecoration: 'none',
-            '& a:hover': {
-              color: '#FF00AB',
-            }
           }}
         >
           team, </Link>
