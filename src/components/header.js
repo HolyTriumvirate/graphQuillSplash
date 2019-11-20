@@ -30,6 +30,9 @@ const Header = ({ siteTitle }) => (
           style={{
             color: 'white',
             textDecoration: 'none',
+            '& a:hover': {
+              color: '#FF00AB',
+            }
           }}
         >
           team, </Link>

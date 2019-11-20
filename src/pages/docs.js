@@ -20,7 +20,7 @@ const Documentation = () => (
     </ul>
     <h1>Getting Started</h1>
     <h2>Installation</h2>
-    <p>Graphquill can be installed from <a href="https://marketplace.visualstudio.com/items?itemName=sproutdeveloping.graphquill">the VS Code Extensions marketplace</a></p>
+    <p>Graphquill can be installed from <a href="https://marketplace.visualstudio.com/items?itemName=sproutdeveloping.graphquill">the VS Code Extensions marketplace.</a></p>
     <h2>Getting up the config file</h2>
     <p>Open the command palette in VS Code (Cmd/Ctrl + Shift + P) and select <code>"GraphQuill: Create GraphQuill Config File"</code>. A default config file will be generated. Update the entry point and port number to finish your GraphQuill setup.</p>
     <h1>Write your first GraphQuill query</h1>
