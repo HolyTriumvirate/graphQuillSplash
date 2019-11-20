@@ -12,7 +12,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <h1>Welcome to the home of the GraphQuill VS Code extension!</h1>
     <div class="image">
-      <div class="image" style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
+      <div class="image" style={{ maxWidth: '300px', marginBottom: '1.00rem' }}>
         <Quill />
       </div>
     </div>
