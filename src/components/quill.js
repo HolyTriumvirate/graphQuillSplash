@@ -18,7 +18,7 @@ const Quill = () => {
     query {
       file(relativePath: { eq: "quill.png" }) {
         childImageSharp {
-          fixed(width: 300, height: 300) {
+          fixed(width: 200, height: 200) {
             ...GatsbyImageSharpFixed
           }
         }
