@@ -25,14 +25,14 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {siteTitle} </Link>
-        <Link className="hoverable" id="morehover"
+        <Link id="morehover"
           to="/team/"
           style={{
             textDecoration: 'none',
           }}
         >
           team, </Link>
-        <Link
+        <Link id="morehoverb"
           to="/docs/"
           style={{
             color: 'white',
@@ -40,7 +40,7 @@ const Header = ({ siteTitle }) => (
           }}
         >
           docs, </Link>
-        <Link
+        <Link id="morehoverc"
           to="/docs/friends"
           style={{
             color: 'white',

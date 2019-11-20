@@ -22,4 +22,20 @@ html {
   color: #FF00AB;
 }
 
+#morehoverb {
+  color: white;
+}
+
+#morehoverb:hover {
+  color: #FF00AB;
+}
+
+#morehoverc {
+  color: white;
+}
+
+#morehoverc:hover {
+  color: #FF00AB;
+}
+
 /* margin 0 auto */
