@@ -14,8 +14,8 @@ html {
   align-items: center
 }
 
-.hoverable:hover {
-  color: red;
+#morehover {
+  color: white;
 }
 
 #morehover:hover {

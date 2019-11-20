@@ -28,7 +28,6 @@ const Header = ({ siteTitle }) => (
         <Link className="hoverable" id="morehover"
           to="/team/"
           style={{
-            color: 'white',
             textDecoration: 'none',
           }}
         >
