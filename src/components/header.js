@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {siteTitle} </Link>
-        <Link className="hoverable"
+        <Link className="hoverable" id="morehover"
           to="/team/"
           style={{
             color: 'white',

@@ -18,4 +18,8 @@ html {
   color: red;
 }
 
+#morehover:hover {
+  color: '#FF00AB';
+}
+
 /* margin 0 auto */
