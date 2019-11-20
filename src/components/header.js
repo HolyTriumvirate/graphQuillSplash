@@ -35,7 +35,6 @@ const Header = ({ siteTitle }) => (
         <Link id="morehoverb"
           to="/docs/"
           style={{
-            color: 'white',
             textDecoration: 'none',
           }}
         >
@@ -43,7 +42,6 @@ const Header = ({ siteTitle }) => (
         <Link id="morehoverc"
           to="/docs/friends"
           style={{
-            color: 'white',
             textDecoration: 'none',
           }}
         >friends</Link>
