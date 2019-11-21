@@ -44,7 +44,7 @@ const Header = ({ siteTitle }) => (
           docs</Link>
           <span class="white"> | </span>
         <Link id="morehoverc"
-          to="/friends"
+          to="/friends/"
           style={{
             textDecoration: 'none',
           }}

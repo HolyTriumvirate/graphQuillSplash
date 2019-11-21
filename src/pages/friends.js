@@ -5,7 +5,7 @@ import SEO from '../components/seo';
 
 const docum = () => (
   <Layout>
-    <SEO title="Friends" />
+    <SEO title="Our Friends" />
     <div>
     <a href="https://reactime.io/">Reactime, a time-traveling React debugger.</a>
     <br/>
