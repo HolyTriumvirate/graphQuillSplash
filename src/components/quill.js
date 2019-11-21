@@ -26,7 +26,7 @@ const Quill = () => {
     }
   `);
 
-  return <Img fixed={data.file.childImageSharp.fixed} />;
+  return <Img fixed={data.file.childImageSharp.fixed} alt="quill logo"/>;
 };
 
 export default Quill;

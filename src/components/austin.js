@@ -26,7 +26,7 @@ const Austin = () => {
     }
   `);
 
-  return <Img fixed={data.file.childImageSharp.fixed} />;
+  return <Img fixed={data.file.childImageSharp.fixed} alt="austin picture"/>;
 };
 
 export default Austin;

@@ -25,7 +25,7 @@ const Alex = () => {
       }
     }
   `);
-  return <Img fixed={data.file.childImageSharp.fixed} />;
+  return <Img fixed={data.file.childImageSharp.fixed} alt="alex picture"/>;
 };
 
 export default Alex;
