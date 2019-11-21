@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const Documentation = () => (
   <Layout>
+    <SEO title="Documentation" />
     <h1>What is GraphQuill?</h1>
     <p>GraphQuill is a VS Code extension that performs GraphQL API endpoint testing within the VS Code environment. GraphQuill intends to remove the need for switching between VS Code and GraphiQL, Postman, or another API development tool.</p>
     <h1>Features</h1>

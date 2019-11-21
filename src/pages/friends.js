@@ -1,9 +1,11 @@
 import React from 'react';
-import Quill from '../../components/quill';
-import Layout from '../../components/layout';
+import Quill from '../components/quill';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
 
 const docum = () => (
   <Layout>
+    <SEO title="Friends" />
     <div>
     <a href="https://reactime.io/">Reactime, a time-traveling React debugger.</a>
     <br/>

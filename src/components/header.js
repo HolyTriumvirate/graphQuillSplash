@@ -1,4 +1,4 @@
-import { Link } from 'gatsby';
+import { Link, withAssetPrefix } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -17,12 +17,12 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
+        <Link id="morehoverz"
           to="/"
           style={{
-            color: '#FF00AB',
             textDecoration: 'none',
           }}
+          activeStyle={{color: '#FF00AB'}}
         >
           {siteTitle} </Link>
         <Link id="morehover"
@@ -30,20 +30,25 @@ const Header = ({ siteTitle }) => (
           style={{
             textDecoration: 'none',
           }}
+          activeStyle={{color: '#FF00AB'}}
         >
-          team, </Link>
+          team</Link>
+          <span class="white"> | </span>
         <Link id="morehoverb"
           to="/docs/"
           style={{
             textDecoration: 'none',
           }}
+          activeStyle={{color: '#FF00AB'}}
         >
-          docs, </Link>
+          docs</Link>
+          <span class="white"> | </span>
         <Link id="morehoverc"
-          to="/docs/friends"
+          to="/friends"
           style={{
             textDecoration: 'none',
           }}
+          activeStyle={{color: '#FF00AB'}}
         >friends</Link>
       </h1>
     </div>
