@@ -20,7 +20,7 @@ const IndexPage = () => (
     <br />
     <Link to="/docs/">Documentation</Link>
     <br />
-    <Link to="/docs/friends">Friends</Link>
+    <Link to="/friends/">Friends</Link>
     <br />
     <a href="https://marketplace.visualstudio.com/items?itemName=sproutdeveloping.graphquill">Go to the Extension on Marketplace!</a>
   </Layout>
