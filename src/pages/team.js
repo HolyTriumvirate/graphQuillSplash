@@ -25,7 +25,7 @@ const SecondPage = () => (
         <Austin />
       </div>
     </div>
-    <p>A user experience genius and manager par excelence, Austin is capable of communicating with users, programmers, and codebases young and old. His connections to the wider developer community brought about the idea of GraphQuill, and it is his fondest hope that he and his team continue to deliver useful, relevant work. <em><a href="https://github.com/austinjruby">GitHub</a></em></p>
+    <p>A user experience genius and manager par excellence, Austin is capable of communicating with users, programmers, and codebases young and old. His connections to the wider developer community brought about the idea of GraphQuill, and it is his fondest hope that he and his team continue to deliver useful, relevant work. <em><a href="https://github.com/austinjruby">GitHub</a></em></p>
     <h2>Ed</h2>
     <div class="image">
       <div class="image" style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
